@@ -1,0 +1,929 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kode+Mono:wght@400..700&family=Lemonada:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Mono:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Strike&family=Raleway&family=Red+Hat+Display:wght@300;400&family=Roboto&family=Titillium+Web&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+.navContainer{
+    position: sticky;
+    top: 0;
+}
+.navBar{
+    height: 15vh;
+    background-color: rgba(34,34,34,255);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.logo img{
+    width: 120px;
+    margin-left: 73px;
+    margin-top: 3%;
+}
+.navLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 163%;
+    margin-right: 5%;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 14px;
+
+}
+.navLinks li{
+    list-style-type: none;
+}
+.navLinks a{
+    text-decoration: none;
+    color: white;
+}
+.navLinks button{
+    color: rgba(0,148,185,255);
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,148,185,255);
+    background-color: black;
+}
+.navLinks button:hover{
+    background-color: rgba(0,148,185,255);
+    color: white;
+}
+.contact{
+    align-items: center;
+    width: 39%;
+    color: white;
+    font-weight: lighter;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.contact a{
+    color: rgba(0,148,185,255);
+}
+
+.heroContainer{
+    height: 45.2vh;
+    background-color: antiquewhite;
+}
+.heroSection{
+    background:linear-gradient(rgba(0.1.0,0,0.1),rgba(0,0,1,.1)),url(./images/genius-coder-programme.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height:100%;
+    width: 100%;
+    display: flex;align-items: center;
+}
+.jumbotron{
+    margin-left: 12%;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.jumbotron h1{
+    padding: 0px 0px 0px 30px;
+
+    border-left: 5px solid rgba(1,144,182,255);
+    color: white;
+    font-size: xxx-large;
+    font-weight: 500;
+}
+.jumbotron p{
+    padding: 23px 0px 0px 0px;
+    font-size: larger;
+    color: white;
+
+}
+.D{
+    display:flex;
+}
+.details h1{
+    text-align: center;
+    padding: 76px 0px 58px 0px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: rgba(50,50,93,255);
+
+}
+.details p{
+    padding: 10px 100px 20px 122px;
+    font-size: 400;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: rgba(50,50,93,255)
+}
+.details img{
+    margin-top: 5%;
+    height: 70%;
+    width: 70%;
+    border-radius: 5%;
+}
+.mainContainer{
+    min-height: 100vh;
+    background-color: white;
+}
+.mainSection{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: rgba(50,50,93,255);
+}
+.mainSection h2{
+    text-align: center;
+    padding: 150px 0px 25px 0px;
+    font-weight: 500;
+    
+}
+.mainSection p{
+    padding: 0px 230px 10px 230px;
+    font-size: large;
+    font-weight: lighter;
+}
+.cardContainer{
+    min-height: 100vh;
+    width: 98%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    padding: 0px 40px 0px 10px; 
+    gap: 2rem;
+    padding: 25px 20px; 
+
+} 
+.card{
+    height: 100%;
+    width:100%; 
+    padding: 50px 10px 10px 10px ; 
+}
+.cardheader{
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(0,148,185,255);
+    text-align: center;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  padding-top: 100px;
+}
+.cardheader i{
+    padding: 20px 0px 0px 0px;
+}
+.cardheader h1{
+    font-weight: 500;
+    font-size: xx-large;
+    padding: 45px 0px 0px 0px;
+}
+.cardbody{
+    width: 100%;
+    height: 35.3vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0,148,185,255);
+}
+.card .cardheader i{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(128,202,220,255);
+    border-radius: 100px;
+    border: 10px solid rgba(128,202,220,255);
+    padding: 10px 0px 0px 0px;
+}
+.cardtwo .cardheader i{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(247,220,154,255);
+    border-radius: 100px;
+    border: 10px solid rgba(247,220,154,255);
+    padding: 10px 0px 0px 0px;
+}
+.cardthree .cardheader i{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(145,145,145,255);
+    border-radius: 100px;
+    border: 10px solid rgba(145,145,145,255);
+    padding: 10px 0px 0px 0px;
+}
+.card .cardbody i{
+    height: 30%;
+    width: 30%;
+    background-color: rgba(128,202,220,255);
+    border-radius: 390px;
+    border: px solid rgba(128,202,220,255);
+    padding: 10px 0px 5px 10px;
+}
+.cardtwo .cardbody i{
+    height: 30%;
+    width: 30%;
+    background-color: rgba(247,220,154,255);
+    border-radius: 390px;
+    border: px solid rgba(247,220,154,255);
+    padding: 10px 0px 5px 10px;
+}
+.cardthree .cardbody i{
+    height: 30%;
+    width: 30%;
+    background-color: rgba(145,145,145,255);
+    border-radius: 390px;
+    border: px solid rgba(145,145,145,255);
+    padding: 10px 0px 5px 10px;
+}
+.iconleft li{
+    padding: 10px 5px 5px 5px;
+    margin-left: 10%;
+}
+.iconleft a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.iconright li{
+    padding: 10px 10px 10px 10px;
+}
+.iconright a{
+    
+}
+.card2{
+    height: 100%;
+    width: 75%;
+    padding: 50px 10px 10px 10px ; 
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px grey; 
+}
+ .cardheader2{
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(238,184,52,255);
+    text-align: center;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  padding-top: 100px;
+}
+.cardheader2 h1{
+    font-weight: 500;
+    font-size: xx-large;
+    padding: 45px 0px 0px 0px;
+}
+.cardbody2{
+    width: 100%;
+    height: 35.3vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(238,184,52,255);
+    color: white;
+}
+.cardheader3{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  padding-top: 100px;
+}
+.cardheader3 h1{
+    font-weight: 500;
+    font-size: xx-large;
+    padding: 45px 0px 0px 0px;
+}
+.cardbody3{
+    width: 100%; 
+    height: 35.3vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+rgba(128,202,220,255)
+.cardbody li{
+    list-style-type: none;
+}
+.cardbody a{
+    text-decoration: none;
+    padding-top:5%;
+    color: white;
+} 
+ .cardbody li{
+    list-style-type: none;
+}
+.cardbody a{
+    text-decoration: none;
+    padding-top:5%;
+    color: white;
+}
+.cardbody li{
+    list-style-type: none;
+    color: white;
+}
+.cardbody a{
+    text-decoration: none;
+    padding-top:5%;
+    color: white;
+}  
+
+.Container{
+    min-height: 80vh;
+    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,40,1)),url(./images/pre-school-courses.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height:100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.Why{
+    text-align: center;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.Why h3{
+    padding: 10px 0px 0px 0px;
+    font-size: 43px;
+    font-weight: 600;
+}
+.Why h2 {
+    padding: 0px 300px 0px 300px;
+    color: rgba(238,184,52,255);
+    font-weight: lighter;
+    font-size: 40px;
+}
+.Why p{
+    padding: 20px 200px 10px 200px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.Code{
+    min-height: 72vh;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.Code h2{
+    padding: 58px 300px 0px 300px;
+    font-weight: 400;
+    font-size: xx-large;
+    color: rgba(50,50,93,255);
+}
+.Code h3{
+    padding: 30px;
+    font-weight: 10;
+}
+.Code p{
+    margin-bottom: 5%;
+}
+.Code button{
+    color: rgba(54,171,200,255);
+    border: 1px solid rgba(15,154,189,255);
+    padding: 15px 250px 15px 250px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: white;
+}
+.Code button:hover{
+    background-color: rgba(54,171,200,255);
+    color: white;
+}
+.Child{
+    min-height: 100vh;
+    background-color: rgba(33,52,85,255);
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.Child h2{
+    padding: 80px 0px 0px 0px;
+    font-size: 43px;
+    color: white;
+    font-weight: 600;
+}
+.Child h3{
+    color:  rgba(238,184,52,255);
+    font-size: 40px;
+    font-weight: lighter;
+}
+.Child p{
+    padding: 30px 250px 30px 250px;
+    font-size: larger;
+    color: white;
+    font-weight: lighter;
+}
+.CardContainer11{
+    min-height:100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 50px 25px;
+}
+.Card11:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.Card11{
+    min-height: 100%; 
+    width: 80%;
+    margin-left: 2%;
+    border: 10px solid white;
+    border-radius: 7px;
+}
+.Cardheader11 img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+figure{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+.cardbody11{
+    background-color: white;
+    height: 8vh;
+    padding: 10px 0px 0px 0px;
+}
+.cardbody11 a{
+    text-decoration: none;
+    padding: 0px 0px 0px  10px;
+    font-size: larger;
+}
+.cardbody11 li{
+    list-style-type: none;
+}
+.Roadmap{
+    min-height: 250vh;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: rgba(50,50,93,255);
+}
+.Roadmap h2{
+    padding: 60px 250px 30px 250px;
+    font-weight: 400;
+    font-size: xx-large;
+}
+.Roadmap p{
+    padding: 0px 280px 20px 280px;
+    font-weight: 100;
+}
+.Roadmap img{
+    height: 50%;
+    width: 50%;
+    padding: 20px 0px 20px 0px;
+}
+.Roadmap h3{
+    font-weight: 450;
+    font-size: x-large;
+    padding: 20px 0px 30px 0px;
+}
+.b1 button{
+    border: 1px solid rgba(50,50,93,255);
+    padding: 15px 110px 15px 110px;
+    background-color: white;
+    border-radius: 3px;
+    color: rgba(50,50,93,255);
+}
+.b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    background-color: white;
+    width: 100%;
+    margin: 0 auto; 
+}.b1 button:hover{
+    background-color: rgba(23,43,77,255);
+    color: white;
+}
+.b2{
+    padding: 30px ;
+}
+.b2 button{
+    border: 1px solid rgba(15,154,189,255);
+    color: rgba(15,154,189,255);
+    padding: 15px 110px 15px 110px;
+    background-color: white;
+    border-radius: 3px;
+}
+.b2 button:hover{
+    background-color: rgba(15,154,189,255);
+    color: white;
+}
+.foot{
+    min-height: 80vh;
+    background-color: rgba(34,34,34,255);
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: rgba(50,50,93,255);
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 60px;
+}
+ .academy img{
+    height: 50%;
+    width: 55%;
+   padding-top: 70px; 
+}
+.academy{
+    margin-left: 10%;
+    padding: 0px 10px 0px 12px;
+    
+}
+.academy p{
+    padding: 60px 0px 19px 0px;
+    color: rgba(136,152,170,255);
+}
+.academy li{
+    list-style-type: none;
+    padding: 0px 10px 10px 0px;
+}
+.academy i{
+    padding: 0px 10px 0px 10px;
+    color: rgba(136,152,170,255);
+}
+.academy a{
+    text-decoration: none;
+    color: rgba(54,171,200,255);
+}
+.academy h3{
+    font-weight: 400;
+    color: rgba(136,152,170,255);
+    font-size: 15px;
+    padding: 0px 0px 10px 33px;
+    margin-top: -7%;
+}
+.links{
+    margin-top: 5%;
+    margin-right: 15%;
+}
+.links h2{
+    padding-bottom: 5%;
+    font-weight: 200;
+    color: rgba(136,152,170,255);
+}
+.links li{
+    list-style-type: none;
+}
+.links a{
+    text-decoration: none;
+    color: rgba(54,171,200,255);
+}
+.touch{
+    margin-right: 15%;
+    margin-top: 5%;
+}
+.touch h3{
+    font-weight: 200;
+    font-size: x-large;
+    padding: 0px 0px 30px 0px;
+    color: rgba(136,152,170,255);
+}
+.fb li{
+    border: 19px solid rgba(59,89,152,255);
+    background-color: rgba(59,89,152,255);
+    border-radius: 39px;
+    color: white;
+}
+.youtube{
+    border: 19px solid rgba(196,48,43,255);
+    background-color: rgba(196,48,43,255);
+    border-radius: 39px;
+    color: white;
+}
+.touch li{
+    list-style-type: none;
+    font-size:30px;
+}
+.touch a{
+    text-decoration: none;
+    color: white;
+}
+.touch1{
+    display: flex;
+    gap: 20px;
+}
+.touch2{
+    padding: 5px;
+}
+.touch li{
+    padding: 0px 5px 0px 5px;
+}
+.touch button{
+    border: 1px solid rgba(45,206,137,255);
+    padding: 5px;
+    background-color: rgba(34,34,34,255);
+    color: rgba(45,206,137,255);
+    border-radius: 3px;
+}
+.touch button:hover{ 
+    /* background-color: rgba(45,206,137,255); */
+    color: white;
+}
+.touch2 li{
+    color:rgba(45,206,137,255) ;
+}
+.t2{
+    display: flex;
+}
+.footer2{
+    background-color: rgba(34,34,34,255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 60px; 
+    margin-top: 30px;
+} 
+.footer2 li{
+    list-style-type: none;
+}
+.footer2 a{
+    text-decoration: none;
+}
+.fleft{
+    display: flex;
+    color: rgba(136,152,170,255);
+    margin-left: 13%;
+    padding: 60px 0px 0px 0px;
+}
+.fleft a{
+    color: rgba(54,171,200,255);
+    padding: 0px 0px 0px 5px;
+}
+.fright{
+    color: rgba(136,152,170,255);
+    margin-right: 13%;
+    padding: 60px 0px 0px 0px;
+
+}
+.cardtwo .cardheader{
+    background-color: rgb(240,188,52);
+}
+.cardtwo .cardbody{
+    background-color: rgb(240,188,52);
+}
+.cardthree .cardheader{
+    background-color: black;
+}
+.cardthree .cardbody{
+    background-color: black;
+}
+.checkbtn{
+    display: none;
+}
+#check{
+    display: none;
+}
+
+@media (max-width:576px) {
+    .navLinks {
+        background-color: white;
+        position: absolute;
+        top: 84px;
+        flex-direction: column;
+        display: none;
+        height: 200px;
+        width: 30%;
+        margin-left: 69% ;
+    }
+    .navLinks li {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: fixed;
+        width: 100%;
+    }
+
+     .navLinks li:hover {
+        background-color: black;
+
+    }
+    .navLinks li:hover a{
+        color: white;
+    }
+    .navLinks a{
+        color: black;
+    }
+    .logo img{
+        margin-left: 0;
+    }
+    .navLinks button{
+        background-color: white;
+    }
+    .contact{
+        padding: 0;
+        display: none;
+    }
+    .checkbtn {
+        display: block;
+        color: white;
+        font-size: x-large;
+        margin-right: 2%;
+        border: 3px solid white;
+        border-radius: 4px;
+        padding: 4px;
+    }
+
+    #check:checked~.navLinks{
+        display: flex;
+    }
+
+    .details{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .details-left p{
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 10px 20px 20px;
+    }
+    .D{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .details-right img{
+        padding: 10px 20px 10px 20px;
+    }
+    .D img{
+        flex-direction: column;
+        width: 100%;
+    }
+    .mainSection h2{
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0px 10px 20px;
+    }
+    .mainSection p{
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0px 10px 20px;
+    }
+    .footer2{
+        /* display: flex; */
+        flex-direction: column;
+        width: 100%;
+    }
+    .fleft{
+        margin: 0;
+        padding: 0;
+    }
+    .fright{
+        margin: 0;
+        padding: 0;
+    }
+    .foot{
+        height: 155vh;
+        background-color: rgba(34,34,34,255);
+        padding: 0;
+    }
+    .footer1{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 30px;
+    }
+    .academy{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+    }
+    .links{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .touch{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+    }
+   .Roadmap{
+       min-height: 0vh;
+    }
+   .Roadmap h2{
+        flex-direction: column;
+        width: 100%;
+        padding: 30px 20px 10px 20px;
+    }
+    .Roadmap p{
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .Child h2{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        padding-top: 30px;
+    }
+    .Child h3{
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .Child p{
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 30px;
+    }
+    .Card11{
+        flex-direction: column;
+        width: 100%;
+        padding: 20px 30px;
+    }
+    .Code{
+        min-height: 70vh;
+        padding: 0px 20px;
+    }
+    .Code h2{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .Code button{
+        flex-direction: column;
+        width: 100%;
+        padding: 20px 30px;
+        align-items: center;
+    }
+    .Container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .Why h3{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .Why h2{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .Why p{
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .Why {
+        margin-bottom: 50px;
+    }
+    .b2 button{
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .
+}
